@@ -743,7 +743,7 @@
         height: 703.7px;
     }
     #SECTION1 > .ladi-section-background{
-        background-image: url("images/thiet-ke-chua-co-ten-1-20220929104316-zjx9h.png");
+        background-image: url("https://res.cloudinary.com/dhdfr7p4h/image/upload/v1727405935/Group_405_ydssfe.png");
     }
     #SHAPE138{
         width: 80px;
@@ -1150,7 +1150,7 @@
 }
 @media (max-width: 767px) {
      #SECTION11{
-        height: 79.8872px;
+        height: 95.8872px;
     }
     #SHAPE15{
         top: -8.706px;
@@ -1159,34 +1159,35 @@
     #HEADLINE9{
         width: 258px;
         top: 16.044px;
+        display: none;
     }
     #HEADLINE9 > .ladi-headline{
         font-size: 22px;
     }
     #GROUP319{
-        width: 194.03px;
+        width: 100%;
          height: 65px;
         top: 1.044px;
-         left: 264px;
+         left: 66px;
     }
     #HEADLINE312{
         width: 194px;
     }
     #HEADLINE313{
-        width: 179px;
+        width: 100%;
         top: 28.1343px;
     }
     #SHAPE311{
-        width: 44.5056px;
-         height: 79.8432px;
+        width: 48.5056px;
+        height: 95.8432px;
         top: -0.956px;
-         left: 225.494px;
+        left: 20px;
     }
     #SECTION1{
         height: 301px;
     }
     #SECTION1 > .ladi-section-background{
-        background-image: url("images/thiet-ke-chua-co-ten-1-20220929104316-zjx9h_1.png");
+        background-image: url("https://res.cloudinary.com/dhdfr7p4h/image/upload/v1727405935/Group_405_ydssfe.png");
     }
     #SHAPE138{
         width: 46.3626px;
@@ -1196,8 +1197,8 @@
     }
     #HEADLINE135{
         width: 308px;
-        top: 44.5786px;
-         left: 494px;
+        top: 55.5786px;
+        left: 75px;
     }
     #HEADLINE135 > .ladi-headline,#HEADLINE134 > .ladi-headline{
         font-size: 30px;
@@ -1207,8 +1208,8 @@
          height: 107.014px;
     }
     #GROUP275{
-        top: 123.579px;
-         left: 597.205px;
+        top: 125.579px;
+        left: 150px;
     }
     #HEADLINE146{
         width: 90px;
@@ -1220,8 +1221,8 @@
     }
     #HEADLINE134{
         width: 314px;
-        top: -8.4214px;
-         left: 474px;
+        top: 15px;
+        left: 60px;
     }
     #GROUP318{
         width: 62.6506px;
@@ -1238,30 +1239,30 @@
          left: 0px;
     }
     #GROUP330{
-        width: 325.095px;
-         height: 296.291px;
+        width: 100%;
+        height: 296.291px;
         top: 4.709px;
-         left: 94.247px;
+        left: 4px;
     }
     #BOX331{
-        width: 324.833px;
-         height: 296.291px;
+        width: 90%;
+        height: 296.291px;
     }
     #BOX332{
-        width: 324.833px;
-         height: 45.1353px;
+        width: 90%;
+        height: 45.1353px;
     }
     #FORM333{
-        width: 306.642px;
-         height: 222.764px;
+        width: 100%;
+        height: 222.764px;
         top: 61.6605px;
-         left: 9.09532px;
+        left: 9.09532px;
     }
     #BUTTON334{
         width: 175.41px;
-         height: 36.3993px;
+        height: 36.3993px;
         top: 186.365px;
-         left: 70.4886px;
+        left: 108.4886px;
     }
     #BUTTON_TEXT334{
         width: 270px;
@@ -1273,28 +1274,33 @@
     }
     #FORM_ITEM336{
         top: 93.1824px;
+        width: 40%;
     }
     #FORM_ITEM337{
-        width: 145.524px;
-         height: 29.1195px;
+        width: 40%;
+        height: 29.1195px;
         top: 93.1824px;
-         left: 159.819px;
+        l;
+        left: 204.819px;
     }
     #FORM_ITEM338{
-        width: 305.343px;
-         height: 29.1195px;
+        width: 85%;
+        height: 29.1195px;
     }
     #FORM_ITEM339{
-        width: 306.642px;
-         height: 29.1195px;
+        width: 85%;
+        height: 29.1195px;
         top: 46.5912px;
     }
     #FORM_ITEM340{
         top: 139.774px;
+        width: 40%;
     }
     #FORM_ITEM341{
         top: 139.774px;
-         left: 159.819px;
+        l;
+        left: 203.819px;
+        width: 40%;
     }
     #HEADLINE342{
         width: 316px;
@@ -1305,10 +1311,13 @@
         font-size: 15px;
     }
     #SECTION107{
-        height: 729.1px;
+        height: 840px;
     }
     #SECTION107 > .ladi-section-background{
-        background-image: url("images/zMj7TaH620220929153419_1.jpeg");
+        /* bg-animation */
+        background: linear-gradient(90deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+        background-size: 300% 300%;
+        animation: gradientAnimation 10s ease infinite;
     }
     #GROUP178{
         top: 56.325px;
@@ -1336,8 +1345,8 @@
     }
     #GROUP203{
         width: 459.579px;
-        top: 594.1px;
-         left: 10px;
+        top: 501.1px;
+        left: 0;
     }
     #GROUP184,#BOX179,#BOX181{
         width: 400.339px;
@@ -1453,7 +1462,7 @@
          left: 199px;
     }
     #SECTION250{
-        height: 481px;
+        height: 1030px;
     }
     #HEADLINE251{
         width: 372px;
@@ -1506,32 +1515,32 @@
         background-image: url("images/images-20220930094212-5imcd_1.jpeg");
     }
     #SECTION276{
-        height: 663.897px;
+        height: 677.897px;
     }
     #IMAGE310{
         width: 400px;
-         height: 220.222px;
+        height: 305.222px;
         top: 10px;
-         left: 10px;
+        left: 10px;
     }
     #IMAGE310 > .ladi-image > .ladi-image-background{
         width: 400px;
-         height: 266.666px;
-        background-image: url("images/portrait-young-businessman-way-work-cab-20220929075855-nygwr.jpg");
+        height: 300.666px;
+        background-image: url("https://res.cloudinary.com/dhdfr7p4h/image/upload/v1727428158/214ee5bd-18aa-4415-8ec4-1375a5f30467_kflpg8.jpg");
     }
     #FRAME306{
-        top: 578.251px;
-         left: 10.934px;
+        top: 620.251px;
+        left: 10.934px;
     }
     #HEADLINE280{
-        top: 247.222px;
-         left: 13px;
+        top: 310.222px;
+        left: 13px;
     }
     #GROUP329{
         width: 386.934px;
-         height: 266.547px;
-        top: 288.722px;
-         left: 13.0658px;
+        height: 266.547px;
+        top: 348.722px;
+        left: 13.0658px;
     }
     #GROUP320,#GROUP281{
         width: 386.934px;
@@ -1625,7 +1634,109 @@
     .bao-gia {
         margin-left: 16px;
     }
+    #HEADLINE312 > .ladi-headline{
+        font-family: Sriracha, cursive;
+         font-size: 40px;
+         font-weight: bold;
+         line-height: 1;
+         color: rgb(0, 0, 0);
+         text-align: left;
+    }
+    #HEADLINE313 > .ladi-headline{
+        font-family: Sriracha, cursive;
+         font-size: 45px;
+         font-weight: bold;
+         line-height: 1.6;
+         color: rgb(255, 22, 22);
+         text-align: left;
 }
+.p-1 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#HEADLINE251 > .ladi-headline {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.container {
+    top: 240px !important;
+}
+  }
+  .mo-ta {
+    font-family: Sriracha, cursive;
+    line-height: 1.2;
+    color: black;
+    margin: 10px 0px;
+  }
+  .bgmota {
+    height: 40px;
+    width: 8px;
+    background-color: rgb(7, 58, 145);
+  }
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    position: absolute;
+    top: 150px;
+  }
+
+  .box {
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .box img {
+    width: 50px;
+    height: 50px;
+    filter: invert(31%) sepia(98%) saturate(7461%) hue-rotate(351deg) brightness(100%) contrast(106%);
+  }
+
+  .box-content {
+    flex: 1;
+  }
+
+  .box-content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(7, 58, 145);
+    font-weight: bold;
+  }
+
+  .box-content p {
+    margin: 5px 0 0;
+    color: #000;
+    line-height: 1.2;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+    .box {
+        margin: 0 4px;
+    }
+  }
 .right {
     left: 20px;
     top: 20px;
@@ -1633,4 +1744,11 @@
 .ladi-wraper {
     position: relative;
     z-index: 9999;
+}
+#SHAPE170 .ladi-shape svg, #SHAPE169 .ladi-shape svg, #SHAPE171 .ladi-shape svg, #SHAPE172 .ladi-shape svg  {
+    display: none;
+}
+#SHAPE170 .ladi-transition, #SHAPE169 .ladi-transition, #SHAPE172 .ladi-transition, #SHAPE171 .ladi-transition {
+    background-color: #fff;
+    border-radius:12px ;
 }
