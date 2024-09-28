@@ -743,7 +743,7 @@
         height: 703.7px;
     }
     #SECTION1 > .ladi-section-background{
-        background-image: url("https://res.cloudinary.com/dhdfr7p4h/image/upload/v1727405935/Group_405_ydssfe.png");
+        background-image: url("https://res.cloudinary.com/dhdfr7p4h/image/upload/v1727482143/Group_407_d6btds.png");
     }
     #SHAPE138{
         width: 80px;
@@ -804,8 +804,8 @@
          height: 407px;
     }
     #GROUP330{
-        top: 160.4px;
-         left: 598px;
+        top: 0;
+        left: 0;
     }
     #BOX332{
         width: 500px;
@@ -865,10 +865,12 @@
         font-size: 18px;
     }
     #SECTION107{
-        height: 577.9px;
+        height: 695.9px;
     }
     #SECTION107 > .ladi-section-background{
-        background-image: url("images/zMj7TaH620220929153419.jpeg");
+        background: linear-gradient(90deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+        background-size: 300% 300%;
+        animation: gradientAnimation 10s ease infinite;
     }
     #GROUP178{
         top: 70.2815px;
@@ -899,8 +901,9 @@
         width: 796px;
     }
     #GROUP203{
-        top: 443.9px;
-         left: 82px;
+        top: 256px;
+        l;
+        left: 220px;
     }
     #HEADLINE185{
         width: 643px;
@@ -1063,22 +1066,22 @@
         background-image: url("images/images-20220930094212-5imcd.jpeg");
     }
     #SECTION276{
-        height: 434.439px;
+        height: 503.439px;
     }
     #IMAGE310{
         width: 689px;
-         height: 379.333px;
+        height: 469.333px;
         top: 39.4119px;
-         left: -194px;
+        left: -194px;
     }
     #IMAGE310 > .ladi-image > .ladi-image-background{
         width: 689px;
-         height: 459.333px;
-        background-image: url("images/portrait-young-businessman-way-work-cab-20220929075855-nygwr_1.jpg");
+        height: 472.333px;
+        background-image: url("https://res.cloudinary.com/dhdfr7p4h/image/upload/v1727428158/214ee5bd-18aa-4415-8ec4-1375a5f30467_kflpg8.jpg");
     }
     #FRAME306{
-        top: 296.441px;
-         left: 523px;
+        top: 200px;
+        left: 523px;
     }
     #HEADLINE280{
         top: 39.4119px;
@@ -1127,8 +1130,8 @@
     }
     #GROUP290{
         width: 327px;
-        top: 177.453px;
-         left: 4.13181px;
+        top: 85px;
+        left: 4.13181px;
     }
     #SHAPE291{
         width: 28.7993px;
@@ -1140,12 +1143,12 @@
         left: 35px;
     }
     #SHAPE285{
-        top: 136.786px;
-         left: 4.13181px;
+        top: 50px;
+        left: 4.13181px;
     }
     #HEADLINE286{
-        top: 138.786px;
-         left: 37.1318px;
+        top: 50px;
+        left: 37.1318px;
     }
 }
 @media (max-width: 767px) {
@@ -1187,7 +1190,7 @@
         height: 301px;
     }
     #SECTION1 > .ladi-section-background{
-        background-image: url("https://res.cloudinary.com/dhdfr7p4h/image/upload/v1727405935/Group_405_ydssfe.png");
+        background-image: url("https://res.cloudinary.com/dhdfr7p4h/image/upload/v1727482143/Group_407_d6btds.png");
     }
     #SHAPE138{
         width: 46.3626px;
@@ -1303,7 +1306,7 @@
         width: 40%;
     }
     #HEADLINE342{
-        width: 316px;
+        width: 100%;
         top: 12.0118px;
          left: 9.09532px;
     }
@@ -1515,7 +1518,7 @@
         background-image: url("images/images-20220930094212-5imcd_1.jpeg");
     }
     #SECTION276{
-        height: 677.897px;
+        height: 532.897px;
     }
     #IMAGE310{
         width: 400px;
@@ -1529,7 +1532,7 @@
         background-image: url("https://res.cloudinary.com/dhdfr7p4h/image/upload/v1727428158/214ee5bd-18aa-4415-8ec4-1375a5f30467_kflpg8.jpg");
     }
     #FRAME306{
-        top: 620.251px;
+        top: 467.251px;
         left: 10.934px;
     }
     #HEADLINE280{
@@ -1538,7 +1541,7 @@
     }
     #GROUP329{
         width: 386.934px;
-        height: 266.547px;
+        height: fit-content;
         top: 348.722px;
         left: 13.0658px;
     }
@@ -1574,8 +1577,8 @@
     }
     #GROUP290{
         width: 314.745px;
-        top: 196px;
-         left: 0px;
+        top: 50px;
+        left: 0px;
     }
     #SHAPE291{
         width: 27.7199px;
@@ -1587,12 +1590,12 @@
         left: 33.6883px;
     }
     #SHAPE285{
-        top: 244px;
-         left: 0px;
+        top: 85px;
+        left: 0px;
     }
     #HEADLINE286{
-        top: 246.547px;
-         left: 33.745px;
+        top: 85px;
+        left: 33.745px;
     }
 }
 .text-css {
@@ -1752,3 +1755,4 @@
     background-color: #fff;
     border-radius:12px ;
 }
+#SECTION222 {display: none;}

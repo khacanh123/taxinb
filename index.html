@@ -1277,10 +1277,10 @@
             </div>
             <div data-action="true" id="GROUP319" class="ladi-element">
                <div class="ladi-group">
-                  <a href="tel:0971181792" id="HEADLINE312" class="ladi-element">
+                  <a :href="'tel:'+data?.telephone.replaceAll(' ', '')" id="HEADLINE312" class="ladi-element">
                      <h3 class="ladi-headline ladi-transition">Hotline<br></h3>
                   </a>
-                  <a href="tel:0971181792" id="HEADLINE313" class="ladi-element">
+                  <a :href="'tel:'+data?.telephone.replaceAll(' ', '')" id="HEADLINE313" class="ladi-element">
                      <h3 class="ladi-headline ladi-transition">{{data?.telephone}}</h3>
                   </a>
                </div>
@@ -1344,7 +1344,7 @@
                         </svg>
                      </div>
                   </a>
-                  <a :href="'tel:'+data?.telephone" id="SHAPE317" class="ladi-element">
+                  <a :href="'tel:'+data?.telephone.replaceAll(' ', '')" id="SHAPE317" class="ladi-element">
                      <div class="ladi-shape ladi-transition">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none"
                            viewBox="0 0 32 32" class="" fill="#000">
@@ -1985,54 +1985,6 @@
             </div>
             <div id="GROUP329" class="ladi-element">
                <div class="ladi-group">
-                  <div id="GROUP320" class="ladi-element">
-                     <div class="ladi-group">
-                        <div id="SHAPE321" class="ladi-element">
-                           <div class="ladi-shape ladi-transition">
-                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                 width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(5, 31, 77, 1)">
-                                 <use xlink:href="#shape_DBJNCUrXhH"></use>
-                              </svg>
-                           </div>
-                        </div>
-                        <div id="HEADLINE322" class="ladi-element">
-                           <p class="ladi-headline ladi-transition">Địa chỉ 2: 16 Nguyễn Văn Huyên, Q.Cầu Giấy, Hà Nội
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div id="GROUP323" class="ladi-element">
-                     <div class="ladi-group">
-                        <div id="SHAPE324" class="ladi-element">
-                           <div class="ladi-shape ladi-transition">
-                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                 width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(5, 31, 77, 1)">
-                                 <use xlink:href="#shape_DBJNCUrXhH"></use>
-                              </svg>
-                           </div>
-                        </div>
-                        <div id="HEADLINE325" class="ladi-element">
-                           <p class="ladi-headline ladi-transition">Địa chỉ 3: Số 33, ngõ 128, Lý Thường Kiệt, Q.Hoàn
-                              Kiếm, Hà Nội</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div id="GROUP326" class="ladi-element">
-                     <div class="ladi-group">
-                        <div id="SHAPE327" class="ladi-element">
-                           <div class="ladi-shape ladi-transition">
-                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                 width="100%" height="100%" viewBox="0 0 24 24" fill="rgba(5, 31, 77, 1)">
-                                 <use xlink:href="#shape_DBJNCUrXhH"></use>
-                              </svg>
-                           </div>
-                        </div>
-                        <div id="HEADLINE328" class="ladi-element">
-                           <p class="ladi-headline ladi-transition">Địa chỉ 4: Số 24, ngõ 88, Nguyễn Văn Cừ, Q.Long
-                              Biên, Hà Nội</p>
-                        </div>
-                     </div>
-                  </div>
                   <div id="GROUP281" class="ladi-element">
                      <div class="ladi-group">
                         <div id="SHAPE282" class="ladi-element">
@@ -2044,8 +1996,7 @@
                            </div>
                         </div>
                         <div id="HEADLINE283" class="ladi-element">
-                           <p class="ladi-headline ladi-transition">Địa chỉ 1: LK13 Khu đô thị Văn Quán, Q.Hà Đông, Hà
-                              Nội</p>
+                           <p class="ladi-headline ladi-transition">Địa chỉ: 35A ngõ 129 Đại Linh, Trung Văn, Nam Từ Liêm, Hà Nội</p>
                         </div>
                      </div>
                   </div>
