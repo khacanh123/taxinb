@@ -2131,12 +2131,105 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                }
             }
+            const data_web = {
+    "_id": "66f37a73f1201ceef1b6a188",
+    "textLogo": "taxisanbaynb.com",
+    "listCustomer": [
+        {
+            "start": "Hà Nội",
+            "end": "Bắc Ninh",
+            "name": "",
+            "telephone": "",
+            "day": ""
+        }
+    ],
+    "listbookCar": [
+        {
+            "start": "Hà Nội",
+            "end": "Phủ Lý",
+            "price": "530000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Bắc Ninh",
+            "price": "390000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Hải Dương",
+            "price": "580000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Hưng Yên",
+            "price": "580000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Bắc Giang",
+            "price": "580000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Nam Định",
+            "price": "780000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Ninh Bình",
+            "price": "860000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Thái Bình",
+            "price": "930000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Hải Phòng",
+            "price": "950000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Thanh Hoá",
+            "price": "1420000"
+        }
+    ],
+    "carHot": [
+        {
+            "start": "Nội Bài",
+            "end": "Hà Nội",
+            "price": "230000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Nội Bài",
+            "price": "190000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Hạ Long",
+            "price": "799000"
+        },
+        {
+            "start": "Hà Nội",
+            "end": "Hải Phòng",
+            "price": "699000"
+        }
+    ],
+    "address": [
+        "Địa chỉ 1: LK13 Khu đô thị Văn Quán, Q.Hà Đông, Hà Nội"
+    ],
+    "telephone": "0383 335 336",
+    "email": "anhhuha4@gmail.com",
+    "__v": 0
+}
             const domain_api = 'https://api-hrm-yxcw.onrender.com'
             onMounted(async () => {
                try {
                   const response = await fetch(domain_api + '/bookcar/66f37a73f1201ceef1b6a188')
                   const data_a = await response.json()
-                  data.value = data_a;
+                  data.value = data_web;
                } catch (error) {
                   console.error('Error fetching users:', error)
                }
