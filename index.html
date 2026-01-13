@@ -2227,10 +2227,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 }
             const domain_api = 'https://api-hrm-yxcw.onrender.com'
             onMounted(async () => {
+               
+                  data.value = data_web;
                try {
                   const response = await fetch(domain_api + '/bookcar/66f37a73f1201ceef1b6a188')
                   const data_a = await response.json()
-                  data.value = data_web;
                } catch (error) {
                   console.error('Error fetching users:', error)
                }
